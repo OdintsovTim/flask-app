@@ -11,7 +11,7 @@ class FlaskAppTests(unittest.TestCase):
         r = self.app.get('/')
         self.assertEqual(
             r.data.decode('utf-8'),
-            'КОМПУКТЕР ДЕЛАЕТ ВСЕ ЗА МЕНЯ!!!!'
+            'Автоматизация - наше все!!!'
         )
 
     def test_post(self):
